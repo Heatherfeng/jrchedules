@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JR Schedules</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/nav.css">
+    <link rel="shortcut icon" href="../icons/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+
+
+
+    <div class="timetable-container">
+
+        <nav class="navbar">
+            <div class="logo">
+                <img src="../icons/logo.png" alt="JRIIT Schedules">
+            </div>
+
+            <!-- Menu toggle (mobile) -->
+            <button class="menu-toggle" id="menu-toggle"><i class="fa fa-bars"></i></button>
+
+            <!-- Navigation links -->
+            <ul class="nav-links" id="nav-links">
+
+                <li>
+                    <div class="custom-select-wrapper">
+                        <select class="custom-select">
+                            <option value="DIT LEVELS">DIT LEVELS</option>
+                            <option value="NTA LEVEL 4 SEM 1">NTA LEVEL 4 SEM 1</option>
+                            <option value="NTA LEVEL 4 SEM 2">NTA LEVEL 4 SEM 2</option>
+                            <option value="NTA LEVEL 5 SEM 1">NTA LEVEL 5 SEM 1</option>
+                            <option value="NTA LEVEL 5 SEM 2">NTA LEVEL 5 SEM 2</option>
+                            <option value="NTA LEVEL 6 SEM 1">NTA LEVEL 6 SEM 1</option>
+                            <option value="NTA LEVEL 6 SEM 2">NTA LEVEL 6 SEM 2</option>
+                        </select>
+                    </div>
+
+                </li>
+
+                <li>
+                    <div class="custom-select-wrapper">
+                        <select class="custom-select">
+                            <option value="DIT LEVELS">DBA LEVELS</option>
+                            <option value="NTA LEVEL 4 SEM 1">NTA LEVEL 4 SEM 1</option>
+                            <option value="NTA LEVEL 4 SEM 2">NTA LEVEL 4 SEM 2</option>
+                            <option value="NTA LEVEL 5 SEM 1">NTA LEVEL 5 SEM 1</option>
+                            <option value="NTA LEVEL 5 SEM 2">NTA LEVEL 5 SEM 2</option>
+                            <option value="NTA LEVEL 6 SEM 1">NTA LEVEL 6 SEM 1</option>
+                            <option value="NTA LEVEL 6 SEM 2">NTA LEVEL 6 SEM 2</option>
+                        </select>
+                    </div>
+                </li>
+
+
+                <li>
+                    <div class="custom-select-wrapper">
+                        <select class="custom-select">
+                            <option value="DIT LEVELS">DCS LEVELS</option>
+                            <option value="NTA LEVEL 4 SEM 1">NTA LEVEL 4 SEM 1</option>
+                            <option value="NTA LEVEL 4 SEM 2">NTA LEVEL 4 SEM 2</option>
+                            <option value="NTA LEVEL 5 SEM 1">NTA LEVEL 5 SEM 1</option>
+                            <option value="NTA LEVEL 5 SEM 2">NTA LEVEL 5 SEM 2</option>
+                            <option value="NTA LEVEL 6 SEM 1">NTA LEVEL 6 SEM 1</option>
+                            <option value="NTA LEVEL 6 SEM 2">NTA LEVEL 6 SEM 2</option>
+                        </select>
+                    </div>
+                </li>
+
+
+                <li>
+                    <div class="custom-select-wrapper">
+                        <select class="custom-select">
+                            <option value="DIT LEVELS">DTT LEVELS</option>
+                            <option value="NTA LEVEL 4 SEM 1">NTA LEVEL 4 SEM 1</option>
+                            <option value="NTA LEVEL 4 SEM 2">NTA LEVEL 4 SEM 2</option>
+                            <option value="NTA LEVEL 5 SEM 1">NTA LEVEL 5 SEM 1</option>
+                            <option value="NTA LEVEL 5 SEM 2">NTA LEVEL 5 SEM 2</option>
+                            <option value="NTA LEVEL 6 SEM 1">NTA LEVEL 6 SEM 1</option>
+                            <option value="NTA LEVEL 6 SEM 2">NTA LEVEL 6 SEM 2</option>
+                        </select>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="custom-select-wrapper">
+                        <select class="custom-select">
+                            <option value="DIT LEVELS">DGD LEVELS</option>
+                            <option value="NTA LEVEL 4 SEM 1">NTA LEVEL 4 SEM 1</option>
+                            <option value="NTA LEVEL 4 SEM 2">NTA LEVEL 4 SEM 2</option>
+                            <option value="NTA LEVEL 5 SEM 1">NTA LEVEL 5 SEM 1</option>
+                            <option value="NTA LEVEL 5 SEM 2">NTA LEVEL 5 SEM 2</option>
+                            <option value="NTA LEVEL 6 SEM 1">NTA LEVEL 6 SEM 1</option>
+                            <option value="NTA LEVEL 6 SEM 2">NTA LEVEL 6 SEM 2</option>
+                        </select>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="theme-toggle">
+                <span class="icon">
+                    <i class="fa fa-sun-o"></i></span>
+                <label class="switch">
+                    <input type="checkbox" id="theme-switch">
+                    <span class="slider"></span>
+                </label>
+                <span class="icon"><i class="fa fa-moon-o"></i></span>
+            </div>
+        </nav>
+        <h2 class="h2">DEPARTMENT OF BUSINESS ADMINISTRATION <br> NTA LEVEL 6 SEMISTER 1</h2>
+
+        <div class="days-header">
+            <button class="day active" data-day="mon">Mon</button>
+            <button class="day" data-day="tue">Tue</button>
+            <button class="day" data-day="wed">Wed</button>
+            <button class="day" data-day="thurs">Thurs</button>
+            <button class="day" data-day="fri">Fri</button>
+            <!-- <button class="day" data-day="sat">Sat</button> -->
+        </div>
+
+
+        <div class="timetable-wrapper">
+
+            <div class="timetable show" id="mon">
+                <div class="time-slot">08:30 - 10:30</div>
+                <div class="subject assembly">ELEMENTARY MATHEMATICS - MR ONESPHORY</div>
+                <div class="time-slot">10:30 - 12:30</div>
+                <div class="subject mathematics">COMPUTER FUNDAMENTAL & APPLICATION - MR BAKARI LAB 2</div>
+                <div class="time-slot">12:30 - 01:30</div>
+                <div class="subject english">LUNCH TIME</div>
+                <div class="time-slot">01:30 - 03:30</div>
+                <div class="subject break">INTERNET ESSENTIAL - MR BAKARI</div>
+                <div class="time-slot">03:30 - 05:30</div>
+                <div class="subject science">....</div>
+                <div class="time-slot">00:00 - 00:00</div>
+                <div class="subject ict">....</div>
+                <div class="time-slot">00:00 - 00:00</div>
+                <div class="subject lunch">....</div>
+                <div class="time-slot">00:00 - 00:00</div>
+                <div class="subject creative-art">....</div>
+            </div>
+
+
+            <div class="timetable" id="tue">
+                <div class="time-slot">08:30 - 10:30</div>
+                <div class="subject assembly">BASIC OF ELECTRONICS/ELECTRICTY - MR ONESPHORY</div>
+                <div class="time-slot">10:30 - 12:30</div>
+                <div class="subject english">...</div>
+                <div class="time-slot">12:30 - 01:30</div>
+                <div class="subject mathematics">LUNCH TIME</div>
+                <div class="time-slot">01:30 - 03:30</div>
+                <div class="subject break">BASIC OF CYBER SECURITY - MR MJUNI</div>
+                <div class="time-slot">03:30 - 05:30</div>
+                <div class="subject ict">....</div>
+                <div class="time-slot">00:00 - 00:00</div>
+                <div class="subject science">....</div>
+                <div class="time-slot">00:00 - 00:00</div>
+                <div class="subject lunch">....</div>
+                <div class="time-slot">00:00 - 00:00</div>
+                <div class="subject creative-art">....</div>
+            </div>
+
+
+            <div class="timetable" id="wed">
+                <div class="time-slot">08:30 -10:30</div>
+                <div class="subject assembly">COMPUTER FUNDAMENTAL & APPLICATION - MR BAKARI</div>
+                <div class="time-slot">10:30 - 12:30</div>
+                <div class="subject science">ENGLISH COMMUNICATION - MR ABDI</div>
+                <div class="time-slot">12:30 - 01:30</div>
+                <div class="subject mathematics">LUNCH TIME</div>
+                <div class="time-slot">01:30 - 03:30</div>
+                <div class="subject break">BASIC OF COMPUTER NETWORK - MR GIFT</div>
+                <div class="time-slot">03:30 - 05:30</div>
+                <div class="subject english">....</div>
+                <div class="time-slot">00:00 - 00:00</div>
+                <div class="subject ict">.....</div>
+                <div class="time-slot">00:00 - 00:00</div>
+                <div class="subject lunch">...</div>
+                <div class="time-slot">00:00 - 00:00</div>
+                <div class="subject creative-art">....</div>
+            </div>
+
+
+            <div class="timetable" id="thurs">
+                <div class="time-slot">08:30 - 10:30</div>
+                <div class="subject assembly">BASIC OF CYBER SECURITY - MR MJUNI</div>
+                <div class="time-slot">10:30 - 12:30</div>
+                <div class="subject mathematics">ENGLISH COMMUNICATION - MR ABDI</div>
+                <div class="time-slot">12:30 - 01:30</div>
+                <div class="subject english">LUNCH TIME</div>
+                <div class="time-slot">01:30 - 03:30</div>
+                <div class="subject break">LIFE SKILLS - MR ABDI</div>
+                <div class="time-slot">03:30 - 05:30</div>
+                <div class="subject science">SPORTS/ CLUBS</div>
+                <div class="time-slot">00:00 - 00:00</div>
+                <div class="subject ict">...</div>
+                <div class="time-slot">00:00 - 00:00</div>
+                <div class="subject lunch">.....</div>
+                <div class="time-slot">00:00 - 00:00</div>
+                <div class="subject creative-art">....</div>
+            </div>
+
+            <div class="timetable" id="fri">
+                <div class="time-slot">08:30 - 10:30</div>
+                <div class="subject assembly">BASIC OF ELECTRONICS/ELECTRICTY - MR ONESPHORY</div>
+                <div class="time-slot">10:30 - 12:30</div>
+                <div class="subject science">BASIC OF COMPUTER NETWORK - MR GIFT</div>
+                <div class="time-slot">12:30 - 01:30</div>
+                <div class="subject mathematics">LUNCH TIME</div>
+                <div class="time-slot">01:30 - 03:30</div>
+                <div class="subject break">INTERNET ESSENTIAL - MR BAKARI</div>
+                <div class="time-slot">00:00 - 00:00</div>
+                <div class="subject english">....</div>
+                <div class="time-slot">00:00 - 00:00</div>
+                <div class="subject ict">....</div>
+                <div class="time-slot">00:00 - 00:00</div>
+                <div class="subject lunch">....</div>
+                <div class="time-slot">00:00 - 00:00</div>
+                <div class="subject creative-art">....</div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="../script/script.js"></script>
+    <script src="../script/nav.js"></script>
+</body>
+
+</html>
